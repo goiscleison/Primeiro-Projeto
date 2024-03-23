@@ -1,0 +1,15 @@
+int main() {
+	// Atividade 1
+	
+	int total, num1, num2;
+	printf ("Digite o primeiro valor:");
+	scanf ("%D", &num1);
+	
+	printf ("Digite o segundo valor:");
+	scanf ("%D", &num2);
+	
+	total = num1+num2;
+	printf ("A media dos dois valores e: %d", (total)/2);
+	
+	return 0;
+}
