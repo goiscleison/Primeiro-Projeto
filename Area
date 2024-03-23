@@ -1,0 +1,15 @@
+int main() {
+	//Atividade 2
+	
+	int total, lado1, lado2;
+	printf ("Digite o lado 1:");
+	scanf ("%d", &lado1);
+	
+	printf ("Digite o lado 2:");
+	scanf ("%d", &lado2);
+	
+	total = lado1*lado2;
+	printf ("A area do quadrado e: %d", total,);
+	
+	return 0;
+}
